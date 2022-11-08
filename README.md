@@ -13,7 +13,7 @@ Include a dependency for `smgladkovskiy/phpcs-git-pre-commit` in your composer.j
 
     {
         "require-dev": {
-            "smgladkovskiy/phpcs-git-pre-commit": "dev-master"
+            "smgladkovskiy/phpcs-git-pre-commit": "dev-magento"
         }
         "repositories": [
             {
@@ -37,7 +37,7 @@ Then run `composer install` or `composer update`. `pre-commit` hook will be inst
 
 Run `git commit` and pre-commit hook will check your committed files like if you run
 
-    php phpcs.phar --standard=Magento2 --encoding=utf-8 -n -p /path/to/file.php
+    php phpcs.phar --standard=Magento2 --encoding=utf-8 /path/to/file.php
 
 ## Contributing
 
